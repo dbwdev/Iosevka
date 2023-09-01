@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-thin.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedthin.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedthin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-thinoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-thinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-thinoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-thinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedthinoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedthinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedthinoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedthinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-thinitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-thinitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedthinitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedthinitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extralight.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedextralight.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extralightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-extralightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedextralightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedextralightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extralightitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedextralightitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-light.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedlight.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedlight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-lightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-lightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-lightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-lightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedlightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedlightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedlightoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedlightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-lightitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-lightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedlightitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedlightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-regular.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extended.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extended.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-oblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-oblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-italic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendeditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendeditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-medium.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedmedium.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedmedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-mediumoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-mediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-mediumoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-mediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedmediumoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedmediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedmediumoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedmediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-mediumitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-mediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedmediumitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedmediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-semibold.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-semibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedsemibold.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedsemibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-semiboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-semiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-semiboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-semiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedsemiboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedsemiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedsemiboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedsemiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-semibolditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-semibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedsemibolditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedsemibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-bold.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedbold.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedbold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-boldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-boldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-boldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-boldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-bolditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-bolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedbolditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedbolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extrabold.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedextrabold.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extraboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-extraboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedextraboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedextraboldoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extrabolditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extrabolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedextrabolditalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedextrabolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-heavy.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/iosevka-recursive-mono-extendedheavy.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedheavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-heavyoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-heavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('ttf/iosevka-recursive-mono-heavyoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-heavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/iosevka-recursive-mono-extendedheavyoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedheavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('ttf/iosevka-recursive-mono-extendedheavyoblique.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedheavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-heavyitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-heavyitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Recursive Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/iosevka-recursive-mono-extendedheavyitalic.ttf') format('truetype'), url('woff2/iosevka-recursive-mono-extendedheavyitalic.woff2') format('woff2');
+}

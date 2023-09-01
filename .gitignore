@@ -35,7 +35,7 @@ test/
 preview/
 .build/
 build/
-dist/
+# dist/
 ref/
 pages/
 releases/
@@ -57,3 +57,5 @@ params/private-parameters.toml
 
 # Ignore tmp directory
 tmp
+
+.DS_Store
